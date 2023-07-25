@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+}
+
+.App-image {
+  width: 60vmin;
+  pointer-events: none;
+}
+
+.App-main {
+  background-color: #1250ce;
+  opacity: 0.9;
+  position: absolute;
+  position: relative;
+  z-index: 1;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(7px + 2vmin);
+  color: white;
+}
+
+.text-box {
+  background: #fff;
+  color: #333;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.display{
+  display: flex;
+}
+
+.button{
+  height: 50px;
+  border-radius: 5px;
+}
+
+.button:hover{
+  background-color: #4CAF50;
+  color: rgb(247, 252, 252);
+
+}
+
+.Copyright {
+  text-align: center;
+  letter-spacing: 1px;
+  color: rgb(188, 185, 185);
+  font-family: Poppins;
+  font-size: 13px;
+  margin-top: -0.5% !important;
+
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
